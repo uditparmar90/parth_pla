@@ -14,7 +14,8 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProductCrudComponent } from './product-crud/product-crud.component';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms'; // Import FormsModule
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,9 @@ import { HttpClientModule } from '@angular/common/http'
     BrowserAnimationsModule,
     MatMenuModule,
     MatButtonModule, 
-    HttpClientModule
+    HttpClientModule, 
+    BrowserModule, 
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
