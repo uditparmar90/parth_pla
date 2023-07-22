@@ -14,7 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProductCrudComponent } from './product-crud/product-crud.component';
-
+import { HttpClientModule } from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +33,8 @@ import { ProductCrudComponent } from './product-crud/product-crud.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    MatButtonModule,
+    MatButtonModule, 
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
