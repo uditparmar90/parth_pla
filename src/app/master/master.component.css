@@ -2,3 +2,7 @@
     display: inline-flex;
     align-items: center;
 }
+.logo{
+    height: 75px; 
+    background-color: aliceblue;
+}

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
-        <a class="navbar-brand" routerLink="/home" routerLinkActive="active">Parthplastomech</a>
+        <a class="navbar-brand" routerLink="/home" routerLinkActive="active"><img src="assets/test/parth_plastomech.jpeg" class="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,25 +44,35 @@
         <div class="v-align-center"><span>Rope Making Machine</span>
         </div>
     </button>
+    <button mat-menu-item [matMenuTriggerFor]="winder">
+        <div class="v-align-center"><span>Winder Machine For Plastic Extrusion Plant</span>
+        </div>
+    </button>
     <button mat-menu-item>Ply Yarn Twister</button>
-    <button mat-menu-item>Bobbin Winder</button>
-    <button mat-menu-item>Cheeze Winde</button>
-    <button mat-menu-item>Roll Winder</button>
+    
     <button mat-menu-item>Inflow Twister</button>
     <button mat-menu-item>Rope coiling Machine</button>
 </mat-menu>
 <mat-menu #plastic_extrusion_plants="matMenu">
     <button mat-menu-item>PP Tape Fibrillated Extrusion Plant</button>
     <button mat-menu-item>PP / HDPE Monofilament Extrusion Yarn Plant</button>
-    <button mat-menu-item>Danline Extrusion Plant</button>
-    <button mat-menu-item>Sutil Extrusion Plant</button>
-    <button mat-menu-item>Baler Twine Extrusion Plant</button>
     <button mat-menu-item>Mono Danline Extrusion Plant</button>
+    <button mat-menu-item>Danline Extrusion Plant</button>
+    <button mat-menu-item>Baler Twine Extrusion Plant</button> 
+    <button mat-menu-item>Sutil Extrusion Plant</button>
+
 </mat-menu>
 <mat-menu #rope_making_machine="matMenu">
     <button mat-menu-item>Rope Making Machine 2-6mm</button>
     <button mat-menu-item>Rope Making Machine 4-8mm</button>
-    <button mat-menu-item>Rope Making Machine 6-12mm</button>
+    <button mat-menu-item>Rope Making Machine 6-12mm</button> 
+    <button mat-menu-item>Rope Making Machine 8-16mm</button> 
     <button mat-menu-item>Rope Making Machine 12-24mm</button>
-    <button mat-menu-item>Rope Making Machine 16-40mm</button>
+    <button mat-menu-item>Rope Making Machine 18-40mm</button>
+</mat-menu>
+
+<mat-menu #winder="matMenu">
+    <button mat-menu-item>Bobbin Winder</button>
+    <button mat-menu-item>Cheeze Winde</button>
+    <button mat-menu-item>Roll Winder</button>
 </mat-menu>
