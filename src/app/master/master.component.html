@@ -34,7 +34,13 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> 
+<div>
+    <ul *ngFor="let i of navData.navData|keyvalue">
+        {{i.key}} 
+        <p *ngFor="let j of i.value|keyvalue">{{j.value}}</p>
+    </ul>
+</div>   
 <mat-menu #about="matMenu">
     <button mat-menu-item [matMenuTriggerFor]="plastic_extrusion_plants">
         <div class="v-align-center"><span>Plastic Extrusion Plants</span>
@@ -55,8 +61,8 @@
 </mat-menu>
 <mat-menu #plastic_extrusion_plants="matMenu">
     <button mat-menu-item>PP Tape Fibrillated Extrusion Plant</button>
-    <button mat-menu-item>PP / HDPE Monofilament Extrusion Yarn Plant</button>
     <button mat-menu-item>Mono Danline Extrusion Plant</button>
+    <button mat-menu-item>PP / HDPE Monofilament Extrusion Yarn Plant</button>
     <button mat-menu-item>Danline Extrusion Plant</button>
     <button mat-menu-item>Baler Twine Extrusion Plant</button> 
     <button mat-menu-item>Sutil Extrusion Plant</button>
