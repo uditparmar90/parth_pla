@@ -11,8 +11,10 @@ export class AppService {
     return this.http.get(productUrl);
   } 
 
-  getSpecificProduct(productId: any):any{
-    let productUrl = `http://localhost:8085/api/product/${productId}`;
+  getSpecificProduct(productId: any):any{ 
+    productId = 27;
+    let productUrl = `http://localhost:8085/api/products/${productId}`; 
+    return this.http.get(productUrl); 
   }
   navData = {
     "Plastic Extrusion Plants":{
