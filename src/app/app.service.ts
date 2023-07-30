@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http'
 export class AppService {
 
   constructor(private http:HttpClient) { } 
+
   getProductData(){
     let productUrl = "http://localhost:8085/api/products"; 
     return this.http.get(productUrl);
@@ -15,7 +16,14 @@ export class AppService {
     productId = 27;
     let productUrl = `http://localhost:8085/api/products/${productId}`; 
     return this.http.get(productUrl); 
+  } 
+
+  getSpecificProductByName(name: any):any{ 
+    // name = 27; 
+    let productUrl = `http://localhost:8085/api/p/${name}`; 
+    return this.http.get(productUrl); 
   }
+
   navData = {
     "Plastic Extrusion Plants":{
       "PP Tape Fibrillated Extrusion Plant":"PP Tape Fibrillated Extrusion Plant", 
