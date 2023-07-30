@@ -11,7 +11,6 @@ export class ProductComponent {
 
   constructor(private product:AppService){
     this.product.getProductData().subscribe(data=>{
-      console.log(data); 
       this.data = data; 
       })
   }

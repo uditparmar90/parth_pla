@@ -11,6 +11,9 @@ export class AppService {
     return this.http.get(productUrl);
   } 
 
+  getSpecificProduct(productId: any):any{
+    let productUrl = `http://localhost:8085/api/product/${productId}`;
+  }
   navData = {
     "Plastic Extrusion Plants":{
       "PP Tape Fibrillated Extrusion Plant":"PP Tape Fibrillated Extrusion Plant", 

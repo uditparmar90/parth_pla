@@ -21,8 +21,6 @@ export class ProductCrudComponent {
       this.product.image = form.value.image; 
       this.product.description = form.value.description; 
       this.product.isActive = form.value.isActive; 
-      console.log(form);
-      console.log(this.product);
     }
     else{
       console.log(form);
@@ -30,7 +28,6 @@ export class ProductCrudComponent {
   } 
   onImageChange(event: any) {
     const file = event.target.files[0]; 
-    console.log(file);
     // Handle the file upload logic here
   }
 }
