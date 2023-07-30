@@ -15,7 +15,8 @@ import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProductCrudComponent } from './product-crud/product-crud.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms'; // Import FormsModule
+import { FormsModule } from '@angular/forms';
+import { ProductDetailsComponent } from './product-details/product-details.component'; // Import FormsModule
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { FormsModule } from '@angular/forms'; // Import FormsModule
     HomeComponent,
     ContactComponent,
     ProductCrudComponent,
+    ProductDetailsComponent,
   ],
   imports: [
     BrowserModule,
