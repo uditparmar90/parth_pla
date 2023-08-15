@@ -12,6 +12,9 @@ import { MonoDanlineExtrusionPlantComponent } from './mono-danline-extrusion-pla
 import { PpHdpeMonofilamentExtrusionYarnPlantComponent } from './pp-hdpe-monofilament-extrusion-yarn-plant/pp-hdpe-monofilament-extrusion-yarn-plant.component';
 import { DanlineExtrusionPlantComponent } from './danline-extrusion-plant/danline-extrusion-plant.component';
 import { BalerTwineExtrusionPlantComponent } from './baler-twine-extrusion-plant/baler-twine-extrusion-plant.component';
+import { RopeMakingMachineTwoSixMmComponent } from './rope-making-machine-two-six-mm/rope-making-machine-two-six-mm.component';
+import { SutilExtrusionPlantComponent } from './sutil-extrusion-plant/sutil-extrusion-plant.component';
+import { RopeMakingMachineFourEightMmComponent } from './rope-making-machine-four-eight-mm/rope-making-machine-four-eight-mm.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -24,6 +27,11 @@ const routes: Routes = [
   { path : "app-pp-hdpe-monofilament-extrusion-yarn-plant", component:PpHdpeMonofilamentExtrusionYarnPlantComponent},
   { path : "app-danline-extrusion-plant", component:DanlineExtrusionPlantComponent},
   { path : "app-baler-twine-extrusion-plant", component:BalerTwineExtrusionPlantComponent},
+  { path : "app-sutil-extrusion-plant", component:SutilExtrusionPlantComponent},
+  { path : "app-rope-making-machine-two-six-mm", component:RopeMakingMachineTwoSixMmComponent},
+  { path : "app-rope-making-machine-four-eight-mm", component:RopeMakingMachineFourEightMmComponent},
+
+
 ];
 
 @NgModule({

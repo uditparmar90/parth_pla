@@ -72,8 +72,10 @@
         <a routerLink="app-sutil-extrusion-plant">Sutil Extrusion Plant</a></button> 
 </mat-menu>
 <mat-menu #rope_making_machine="matMenu">
-    <button mat-menu-item (click)="getValue('rope_making_machine_2_6mm')">Rope Making Machine 2-6mm</button>
-    <button mat-menu-item (click)="getValue('rope_making_machine_4_8mm')">Rope Making Machine 4-8mm</button>
+    <button mat-menu-item (click)="getValue('rope_making_machine_two_six_mm')">
+        <a routerLink="app-rope-making-machine-two-six-mm">Rope Making Machine 2-6mm</a></button>
+    <button mat-menu-item (click)="getValue('rope_making_machine_4_8mm')">
+        <a routerLink="app-rope-making-machine-four-eight-mm">Rope Making Machine 4-8mm</a></button>
     <button mat-menu-item (click)="getValue('rope_making_machine_6_12mm')">Rope Making Machine 6-12mm</button> 
     <button mat-menu-item (click)="getValue('rope_making_machine_8_16mm')">Rope Making Machine 8-16mm</button> 
     <button mat-menu-item (click)="getValue('rope_making_machine_12_24mm')">Rope Making Machine 12-24mm</button>

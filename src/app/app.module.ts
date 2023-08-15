@@ -22,7 +22,9 @@ import { MonoDanlineExtrusionPlantComponent } from './mono-danline-extrusion-pla
 import { PpHdpeMonofilamentExtrusionYarnPlantComponent } from './pp-hdpe-monofilament-extrusion-yarn-plant/pp-hdpe-monofilament-extrusion-yarn-plant.component';
 import { DanlineExtrusionPlantComponent } from './danline-extrusion-plant/danline-extrusion-plant.component';
 import { BalerTwineExtrusionPlantComponent } from './baler-twine-extrusion-plant/baler-twine-extrusion-plant.component';
-import { SutilExtrusionPlantComponent } from './sutil-extrusion-plant/sutil-extrusion-plant.component'; // Import FormsModule
+import { SutilExtrusionPlantComponent } from './sutil-extrusion-plant/sutil-extrusion-plant.component';
+import { RopeMakingMachineTwoSixMmComponent } from './rope-making-machine-two-six-mm/rope-making-machine-two-six-mm.component';
+import { RopeMakingMachineFourEightMmComponent } from './rope-making-machine-four-eight-mm/rope-making-machine-four-eight-mm.component'; // Import FormsModule
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +44,8 @@ import { SutilExtrusionPlantComponent } from './sutil-extrusion-plant/sutil-extr
     DanlineExtrusionPlantComponent,
     BalerTwineExtrusionPlantComponent,
     SutilExtrusionPlantComponent,
+    RopeMakingMachineTwoSixMmComponent,
+    RopeMakingMachineFourEightMmComponent,
   ],
   imports: [
     BrowserModule,
