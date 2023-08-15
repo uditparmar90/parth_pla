@@ -9,4 +9,24 @@ body {
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
+} 
+/* For Webkit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Transparent background for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* Transparent color for the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* For Firefox */
+/* Note: Firefox doesn't support transparent scrollbar tracks */
+/* It only supports customizing the thumb color */
+body {
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
 }

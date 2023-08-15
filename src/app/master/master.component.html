@@ -54,7 +54,8 @@
     <button mat-menu-item (click)="getValue('rope_coiling_machine')">Rope coiling Machine</button>
 </mat-menu>
 <mat-menu #plastic_extrusion_plants="matMenu">
-    <button mat-menu-item (click)="getValue('pp_tape_fibrillated_extrusion_plant')">PP Tape Fibrillated Extrusion Plant</button> 
+    <button mat-menu-item (click)="getValue('pp_tape_fibrillated_extrusion_plant')">
+        <a routerLink="app-pp-tape-fibrillated-extrusion-plant"> Tape Fibrillated Extrusion Plant</a></button> 
     <button mat-menu-item (click)="getValue('mono_danline_extrusion_plant')">Mono Danline Extrusion Plant</button>
     <button mat-menu-item (click)="getValue('pp_hdpe_monofilament_extrusion_yarn_plant')">PP / HDPE Monofilament Extrusion Yarn Plant</button>
     <button mat-menu-item (click)="getValue('danline_extrusion_plant')">Danline Extrusion Plant</button>

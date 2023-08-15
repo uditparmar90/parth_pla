@@ -16,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProductCrudComponent } from './product-crud/product-crud.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { ProductDetailsComponent } from './product-details/product-details.component'; // Import FormsModule
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { PpTapeFibrillatedExtrusionPlantComponent } from './pp-tape-fibrillated-extrusion-plant/pp-tape-fibrillated-extrusion-plant.component'; // Import FormsModule
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     ContactComponent,
     ProductCrudComponent,
     ProductDetailsComponent,
+    PpTapeFibrillatedExtrusionPlantComponent,
   ],
   imports: [
     BrowserModule,

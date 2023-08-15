@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'
+import { HttpClient } from '@angular/common/http'; 
+import { Observable } from 'rxjs';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -9,7 +11,7 @@ export class AppService {
 
   getProductData(){
     let productUrl = "http://localhost:8085/api/products"; 
-    return this.http.get(productUrl);
+    return this.http.get(productUrl); 
   } 
 
   getSpecificProduct(productId: any):any{ 
