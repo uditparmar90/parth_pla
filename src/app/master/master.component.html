@@ -48,28 +48,28 @@
         <div class="v-align-center"><span>Winder Machine For Plastic Extrusion Plant</span>
         </div>
     </button>
-    <button mat-menu-item (click)="getValue('ply_yarn_twister')">
-        <a routerLink="app-ply-yarn-twister">Ply Yarn Twister</a></button>
-    <button mat-menu-item (click)="getValue('inflow_twister')">
-        <a routerLink="app-inflow-twister">Inflow Twister</a></button>
-    <button mat-menu-item (click)="getValue('rope_coiling_machine')">
-        <a routerLink="app-rope-coiling-machine">Rope coiling Machine</a></button>
+    
+        <a routerLink="app-ply-yarn-twister">
+            <button mat-menu-item (click)="getValue('ply_yarn_twister')">Ply Yarn Twister</button></a> 
+        <a routerLink="app-inflow-twister"><button mat-menu-item (click)="getValue('inflow_twister')">Inflow Twister</button></a>
+    
+        <a routerLink="app-rope-coiling-machine"><button mat-menu-item (click)="getValue('rope_coiling_machine')">Rope coiling Machine</button></a>
 </mat-menu>
 <mat-menu #plastic_extrusion_plants="matMenu">
-    <button mat-menu-item (click)="getValue('pp_tape_fibrillated_extrusion_plant')">
-        <a routerLink="app-pp-tape-fibrillated-extrusion-plant"> Tape Fibrillated Extrusion Plant</a></button> 
+    
+        <a routerLink="app-pp-tape-fibrillated-extrusion-plant"><button mat-menu-item (click)="getValue('pp_tape_fibrillated_extrusion_plant')"> Tape Fibrillated Extrusion Plant</button></a> 
 
-    <button mat-menu-item (click)="getValue('mono_danline_extrusion_plant')">
-        <a routerLink="app-mono-danline-extrusion-plant">Mono Danline Extrusion Plant</a></button> 
+    
+        <a routerLink="app-mono-danline-extrusion-plant"><button mat-menu-item (click)="getValue('mono_danline_extrusion_plant')">Mono Danline Extrusion Plant</button></a> 
 
-    <button mat-menu-item (click)="getValue('pp_hdpe_monofilament_extrusion_yarn_plant')">
-        <a routerLink="app-pp-hdpe-monofilament-extrusion-yarn-plant">PP / HDPE Monofilament Extrusion Yarn Plant</a></button> 
+    
+        <a routerLink="app-pp-hdpe-monofilament-extrusion-yarn-plant"><button mat-menu-item (click)="getValue('pp_hdpe_monofilament_extrusion_yarn_plant')">PP / HDPE Monofilament Extrusion Yarn Plant</button></a> 
 
-    <button mat-menu-item (click)="getValue('danline_extrusion_plant')">
-        <a routerLink="app-danline-extrusion-plant">Danline Extrusion Plant</a></button> 
+    
+        <a routerLink="app-danline-extrusion-plant"><button mat-menu-item (click)="getValue('danline_extrusion_plant')">Danline Extrusion Plant</button></a> 
 
-    <button mat-menu-item (click)="getValue('baler_twine_extrusion_plant')">
-        <a routerLink="app-baler-twine-extrusion-plant">Baler Twine Extrusion Plant</a></button> 
+    
+        <a routerLink="app-baler-twine-extrusion-plant"><button mat-menu-item (click)="getValue('baler_twine_extrusion_plant')">Baler Twine Extrusion Plant</button></a> 
     <button mat-menu-item (click)="getValue('sutil_extrusion_plant')">
         <a routerLink="app-sutil-extrusion-plant">Sutil Extrusion Plant</a></button> 
 </mat-menu>
