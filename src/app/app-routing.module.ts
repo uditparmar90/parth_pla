@@ -15,6 +15,10 @@ import { BalerTwineExtrusionPlantComponent } from './baler-twine-extrusion-plant
 import { RopeMakingMachineTwoSixMmComponent } from './rope-making-machine-two-six-mm/rope-making-machine-two-six-mm.component';
 import { SutilExtrusionPlantComponent } from './sutil-extrusion-plant/sutil-extrusion-plant.component';
 import { RopeMakingMachineFourEightMmComponent } from './rope-making-machine-four-eight-mm/rope-making-machine-four-eight-mm.component';
+import { RopeMakingMachineSixTwelveMmComponent } from './rope-making-machine-six-twelve-mm/rope-making-machine-six-twelve-mm.component';
+import { RopeMakingMachineEightSixteenMmComponent } from './rope-making-machine-eight-sixteen-mm/rope-making-machine-eight-sixteen-mm.component';
+import { RopeMakingMachineTwelveTwentyFourMmComponent } from './rope-making-machine-twelve-twenty-four-mm/rope-making-machine-twelve-twenty-four-mm.component';
+import { RopeMakingMachineEighteenFourytMmComponent } from './rope-making-machine-eighteen-fouryt-mm/rope-making-machine-eighteen-fouryt-mm.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -29,8 +33,11 @@ const routes: Routes = [
   { path : "app-baler-twine-extrusion-plant", component:BalerTwineExtrusionPlantComponent},
   { path : "app-sutil-extrusion-plant", component:SutilExtrusionPlantComponent},
   { path : "app-rope-making-machine-two-six-mm", component:RopeMakingMachineTwoSixMmComponent},
-  { path : "app-rope-making-machine-four-eight-mm", component:RopeMakingMachineFourEightMmComponent},
-
+  { path : "app-rope-making-machine-four-eight-mm", component:RopeMakingMachineFourEightMmComponent}, 
+  { path : "app-rope-making-machine-eight-sixteen-mm", component:RopeMakingMachineEightSixteenMmComponent}, 
+  { path : "app-rope-making-machine-six-twelve-mm", component:RopeMakingMachineSixTwelveMmComponent}, 
+  { path : "app-rope-making-machine-twelve-twenty-four-mm", component:RopeMakingMachineTwelveTwentyFourMmComponent}, 
+  { path : "app-rope-making-machine-eighteen-fouryt-mm", component:RopeMakingMachineEighteenFourytMmComponent}, 
 
 ];
 

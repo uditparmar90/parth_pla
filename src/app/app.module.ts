@@ -24,7 +24,11 @@ import { DanlineExtrusionPlantComponent } from './danline-extrusion-plant/danlin
 import { BalerTwineExtrusionPlantComponent } from './baler-twine-extrusion-plant/baler-twine-extrusion-plant.component';
 import { SutilExtrusionPlantComponent } from './sutil-extrusion-plant/sutil-extrusion-plant.component';
 import { RopeMakingMachineTwoSixMmComponent } from './rope-making-machine-two-six-mm/rope-making-machine-two-six-mm.component';
-import { RopeMakingMachineFourEightMmComponent } from './rope-making-machine-four-eight-mm/rope-making-machine-four-eight-mm.component'; // Import FormsModule
+import { RopeMakingMachineFourEightMmComponent } from './rope-making-machine-four-eight-mm/rope-making-machine-four-eight-mm.component';
+import { RopeMakingMachineSixTwelveMmComponent } from './rope-making-machine-six-twelve-mm/rope-making-machine-six-twelve-mm.component';
+import { RopeMakingMachineEightSixteenMmComponent } from './rope-making-machine-eight-sixteen-mm/rope-making-machine-eight-sixteen-mm.component';
+import { RopeMakingMachineTwelveTwentyFourMmComponent } from './rope-making-machine-twelve-twenty-four-mm/rope-making-machine-twelve-twenty-four-mm.component';
+import { RopeMakingMachineEighteenFourytMmComponent } from './rope-making-machine-eighteen-fouryt-mm/rope-making-machine-eighteen-fouryt-mm.component'; // Import FormsModule
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,6 +50,10 @@ import { RopeMakingMachineFourEightMmComponent } from './rope-making-machine-fou
     SutilExtrusionPlantComponent,
     RopeMakingMachineTwoSixMmComponent,
     RopeMakingMachineFourEightMmComponent,
+    RopeMakingMachineSixTwelveMmComponent,
+    RopeMakingMachineEightSixteenMmComponent,
+    RopeMakingMachineTwelveTwentyFourMmComponent,
+    RopeMakingMachineEighteenFourytMmComponent,
   ],
   imports: [
     BrowserModule,
