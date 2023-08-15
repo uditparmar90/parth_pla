@@ -28,7 +28,13 @@ import { RopeMakingMachineFourEightMmComponent } from './rope-making-machine-fou
 import { RopeMakingMachineSixTwelveMmComponent } from './rope-making-machine-six-twelve-mm/rope-making-machine-six-twelve-mm.component';
 import { RopeMakingMachineEightSixteenMmComponent } from './rope-making-machine-eight-sixteen-mm/rope-making-machine-eight-sixteen-mm.component';
 import { RopeMakingMachineTwelveTwentyFourMmComponent } from './rope-making-machine-twelve-twenty-four-mm/rope-making-machine-twelve-twenty-four-mm.component';
-import { RopeMakingMachineEighteenFourytMmComponent } from './rope-making-machine-eighteen-fouryt-mm/rope-making-machine-eighteen-fouryt-mm.component'; // Import FormsModule
+import { RopeMakingMachineEighteenFourytMmComponent } from './rope-making-machine-eighteen-fouryt-mm/rope-making-machine-eighteen-fouryt-mm.component';
+import { BobbingWinderComponent } from './bobbing-winder/bobbing-winder.component';
+import { CheezeWinderComponent } from './cheeze-winder/cheeze-winder.component';
+import { RollWinderComponent } from './roll-winder/roll-winder.component';
+import { PlyYarnTwisterComponent } from './ply-yarn-twister/ply-yarn-twister.component';
+import { InflowTwisterComponent } from './inflow-twister/inflow-twister.component';
+import { RopeCoilingMachineComponent } from './rope-coiling-machine/rope-coiling-machine.component'; // Import FormsModule
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,6 +60,12 @@ import { RopeMakingMachineEighteenFourytMmComponent } from './rope-making-machin
     RopeMakingMachineEightSixteenMmComponent,
     RopeMakingMachineTwelveTwentyFourMmComponent,
     RopeMakingMachineEighteenFourytMmComponent,
+    BobbingWinderComponent,
+    CheezeWinderComponent,
+    RollWinderComponent,
+    PlyYarnTwisterComponent,
+    InflowTwisterComponent,
+    RopeCoilingMachineComponent,
   ],
   imports: [
     BrowserModule,

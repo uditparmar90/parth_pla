@@ -19,6 +19,12 @@ import { RopeMakingMachineSixTwelveMmComponent } from './rope-making-machine-six
 import { RopeMakingMachineEightSixteenMmComponent } from './rope-making-machine-eight-sixteen-mm/rope-making-machine-eight-sixteen-mm.component';
 import { RopeMakingMachineTwelveTwentyFourMmComponent } from './rope-making-machine-twelve-twenty-four-mm/rope-making-machine-twelve-twenty-four-mm.component';
 import { RopeMakingMachineEighteenFourytMmComponent } from './rope-making-machine-eighteen-fouryt-mm/rope-making-machine-eighteen-fouryt-mm.component';
+import { BobbingWinderComponent } from './bobbing-winder/bobbing-winder.component';
+import { CheezeWinderComponent } from './cheeze-winder/cheeze-winder.component';
+import { RollWinderComponent } from './roll-winder/roll-winder.component';
+import { PlyYarnTwisterComponent } from './ply-yarn-twister/ply-yarn-twister.component';
+import { InflowTwisterComponent } from './inflow-twister/inflow-twister.component';
+import { RopeCoilingMachineComponent } from './rope-coiling-machine/rope-coiling-machine.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -38,6 +44,16 @@ const routes: Routes = [
   { path : "app-rope-making-machine-six-twelve-mm", component:RopeMakingMachineSixTwelveMmComponent}, 
   { path : "app-rope-making-machine-twelve-twenty-four-mm", component:RopeMakingMachineTwelveTwentyFourMmComponent}, 
   { path : "app-rope-making-machine-eighteen-fouryt-mm", component:RopeMakingMachineEighteenFourytMmComponent}, 
+  { path : "app-bobbing-winder", component:BobbingWinderComponent}, 
+  { path : "app-cheeze-winder", component:CheezeWinderComponent}, 
+  { path : "app-roll-winder", component:RollWinderComponent}, 
+  { path : "app-ply-yarn-twister", component:PlyYarnTwisterComponent}, 
+  { path : "app-inflow-twister", component:InflowTwisterComponent}, 
+  { path : "app-rope-coiling-machine", component:RopeCoilingMachineComponent}, 
+
+
+
+
 
 ];
 

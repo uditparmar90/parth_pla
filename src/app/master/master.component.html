@@ -48,10 +48,12 @@
         <div class="v-align-center"><span>Winder Machine For Plastic Extrusion Plant</span>
         </div>
     </button>
-    <button mat-menu-item (click)="getValue('ply_yarn_twister')">Ply Yarn Twister</button>
-    
-    <button mat-menu-item (click)="getValue('inflow_twister')">Inflow Twister</button>
-    <button mat-menu-item (click)="getValue('rope_coiling_machine')">Rope coiling Machine</button>
+    <button mat-menu-item (click)="getValue('ply_yarn_twister')">
+        <a routerLink="app-ply-yarn-twister">Ply Yarn Twister</a></button>
+    <button mat-menu-item (click)="getValue('inflow_twister')">
+        <a routerLink="app-inflow-twister">Inflow Twister</a></button>
+    <button mat-menu-item (click)="getValue('rope_coiling_machine')">
+        <a routerLink="app-rope-coiling-machine">Rope coiling Machine</a></button>
 </mat-menu>
 <mat-menu #plastic_extrusion_plants="matMenu">
     <button mat-menu-item (click)="getValue('pp_tape_fibrillated_extrusion_plant')">
@@ -87,7 +89,10 @@
 </mat-menu>
 
 <mat-menu #winder="matMenu">
-    <button mat-menu-item (click)="getValue('bobbing_winder')">Bobbin Winder</button>
-    <button mat-menu-item (click)="getValue('cheeze_winder')">Cheeze Winder</button>
-    <button mat-menu-item (click)="getValue('roll_winder')">Roll Winder</button>
-</mat-menu>
+    <button mat-menu-item (click)="getValue('bobbing_winder')">
+        <a routerLink="app-bobbing-winder">Bobbin Winder</a></button>
+    <button mat-menu-item (click)="getValue('cheeze_winder')">
+        <a routerLink="app-cheeze-winder">Cheeze Winder</a></button>
+    <button mat-menu-item (click)="getValue('roll_winder')">
+        <a routerLink="app-roll-winder">Roll Winder</a></button>
+</mat-menu> 
