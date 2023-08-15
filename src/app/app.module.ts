@@ -17,7 +17,9 @@ import { ProductCrudComponent } from './product-crud/product-crud.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ProductDetailsComponent } from './product-details/product-details.component';
-import { PpTapeFibrillatedExtrusionPlantComponent } from './pp-tape-fibrillated-extrusion-plant/pp-tape-fibrillated-extrusion-plant.component'; // Import FormsModule
+import { PpTapeFibrillatedExtrusionPlantComponent } from './pp-tape-fibrillated-extrusion-plant/pp-tape-fibrillated-extrusion-plant.component';
+import { MonoDanlineExtrusionPlantComponent } from './mono-danline-extrusion-plant/mono-danline-extrusion-plant.component';
+import { PpHdpeMonofilamentExtrusionYarnPlantComponent } from './pp-hdpe-monofilament-extrusion-yarn-plant/pp-hdpe-monofilament-extrusion-yarn-plant.component'; // Import FormsModule
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +34,8 @@ import { PpTapeFibrillatedExtrusionPlantComponent } from './pp-tape-fibrillated-
     ProductCrudComponent,
     ProductDetailsComponent,
     PpTapeFibrillatedExtrusionPlantComponent,
+    MonoDanlineExtrusionPlantComponent,
+    PpHdpeMonofilamentExtrusionYarnPlantComponent,
   ],
   imports: [
     BrowserModule,

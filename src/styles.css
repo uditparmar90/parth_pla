@@ -30,3 +30,13 @@ body {
 body {
     scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
 }
+.image{
+    max-height: 450px;
+}
+.key_features{
+    height: 450px; 
+    overflow-y: scroll;
+}
+img{
+    height: 400px;
+}

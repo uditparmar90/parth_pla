@@ -8,6 +8,8 @@ import { ContactComponent } from './contact/contact.component';
 import { ProductCrudComponent } from './product-crud/product-crud.component';
 import {ProductDetailsComponent} from './product-details/product-details.component'
 import { PpTapeFibrillatedExtrusionPlantComponent } from './pp-tape-fibrillated-extrusion-plant/pp-tape-fibrillated-extrusion-plant.component';
+import { MonoDanlineExtrusionPlantComponent } from './mono-danline-extrusion-plant/mono-danline-extrusion-plant.component';
+import { PpHdpeMonofilamentExtrusionYarnPlantComponent } from './pp-hdpe-monofilament-extrusion-yarn-plant/pp-hdpe-monofilament-extrusion-yarn-plant.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -15,7 +17,9 @@ const routes: Routes = [
   { path: 'products', component: ProductComponent },
   { path: 'contact', component: ContactComponent }, 
   { path: 'add_products', component: ProductDetailsComponent },
-  { path : "app-pp-tape-fibrillated-extrusion-plant", component:PpTapeFibrillatedExtrusionPlantComponent}
+  { path : "app-pp-tape-fibrillated-extrusion-plant", component:PpTapeFibrillatedExtrusionPlantComponent},
+  { path : "app-mono-danline-extrusion-plant", component:MonoDanlineExtrusionPlantComponent},
+  { path : "app-pp-hdpe-monofilament-extrusion-yarn-plant", component:PpHdpeMonofilamentExtrusionYarnPlantComponent}
 ];
 
 @NgModule({
