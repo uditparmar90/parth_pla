@@ -19,7 +19,10 @@ import { FormsModule } from '@angular/forms';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { PpTapeFibrillatedExtrusionPlantComponent } from './pp-tape-fibrillated-extrusion-plant/pp-tape-fibrillated-extrusion-plant.component';
 import { MonoDanlineExtrusionPlantComponent } from './mono-danline-extrusion-plant/mono-danline-extrusion-plant.component';
-import { PpHdpeMonofilamentExtrusionYarnPlantComponent } from './pp-hdpe-monofilament-extrusion-yarn-plant/pp-hdpe-monofilament-extrusion-yarn-plant.component'; // Import FormsModule
+import { PpHdpeMonofilamentExtrusionYarnPlantComponent } from './pp-hdpe-monofilament-extrusion-yarn-plant/pp-hdpe-monofilament-extrusion-yarn-plant.component';
+import { DanlineExtrusionPlantComponent } from './danline-extrusion-plant/danline-extrusion-plant.component';
+import { BalerTwineExtrusionPlantComponent } from './baler-twine-extrusion-plant/baler-twine-extrusion-plant.component';
+import { SutilExtrusionPlantComponent } from './sutil-extrusion-plant/sutil-extrusion-plant.component'; // Import FormsModule
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +39,9 @@ import { PpHdpeMonofilamentExtrusionYarnPlantComponent } from './pp-hdpe-monofil
     PpTapeFibrillatedExtrusionPlantComponent,
     MonoDanlineExtrusionPlantComponent,
     PpHdpeMonofilamentExtrusionYarnPlantComponent,
+    DanlineExtrusionPlantComponent,
+    BalerTwineExtrusionPlantComponent,
+    SutilExtrusionPlantComponent,
   ],
   imports: [
     BrowserModule,

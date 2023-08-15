@@ -10,6 +10,8 @@ import {ProductDetailsComponent} from './product-details/product-details.compone
 import { PpTapeFibrillatedExtrusionPlantComponent } from './pp-tape-fibrillated-extrusion-plant/pp-tape-fibrillated-extrusion-plant.component';
 import { MonoDanlineExtrusionPlantComponent } from './mono-danline-extrusion-plant/mono-danline-extrusion-plant.component';
 import { PpHdpeMonofilamentExtrusionYarnPlantComponent } from './pp-hdpe-monofilament-extrusion-yarn-plant/pp-hdpe-monofilament-extrusion-yarn-plant.component';
+import { DanlineExtrusionPlantComponent } from './danline-extrusion-plant/danline-extrusion-plant.component';
+import { BalerTwineExtrusionPlantComponent } from './baler-twine-extrusion-plant/baler-twine-extrusion-plant.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
@@ -19,7 +21,9 @@ const routes: Routes = [
   { path: 'add_products', component: ProductDetailsComponent },
   { path : "app-pp-tape-fibrillated-extrusion-plant", component:PpTapeFibrillatedExtrusionPlantComponent},
   { path : "app-mono-danline-extrusion-plant", component:MonoDanlineExtrusionPlantComponent},
-  { path : "app-pp-hdpe-monofilament-extrusion-yarn-plant", component:PpHdpeMonofilamentExtrusionYarnPlantComponent}
+  { path : "app-pp-hdpe-monofilament-extrusion-yarn-plant", component:PpHdpeMonofilamentExtrusionYarnPlantComponent},
+  { path : "app-danline-extrusion-plant", component:DanlineExtrusionPlantComponent},
+  { path : "app-baler-twine-extrusion-plant", component:BalerTwineExtrusionPlantComponent},
 ];
 
 @NgModule({
