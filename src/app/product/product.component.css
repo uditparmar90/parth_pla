@@ -1,0 +1,6 @@
+.col-product{
+    padding: 10px;
+}
+.col-product:hover{
+    box-shadow: 0 0 10px 0;
+}
