@@ -34,7 +34,8 @@ import { CheezeWinderComponent } from './cheeze-winder/cheeze-winder.component';
 import { RollWinderComponent } from './roll-winder/roll-winder.component';
 import { PlyYarnTwisterComponent } from './ply-yarn-twister/ply-yarn-twister.component';
 import { InflowTwisterComponent } from './inflow-twister/inflow-twister.component';
-import { RopeCoilingMachineComponent } from './rope-coiling-machine/rope-coiling-machine.component'; // Import FormsModule
+import { RopeCoilingMachineComponent } from './rope-coiling-machine/rope-coiling-machine.component';
+import { FormQuoteComponent } from './form-quote/form-quote.component'; // Import FormsModule
 @NgModule({
   declarations: [
     AppComponent,
@@ -66,6 +67,7 @@ import { RopeCoilingMachineComponent } from './rope-coiling-machine/rope-coiling
     PlyYarnTwisterComponent,
     InflowTwisterComponent,
     RopeCoilingMachineComponent,
+    FormQuoteComponent,
   ],
   imports: [
     BrowserModule,
