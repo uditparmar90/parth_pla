@@ -1,3 +1,8 @@
 img {
     height: 500px !important;
 }
+@media screen and (max-width: 480px) {
+    .main_img_container,img{
+        height: 250px !important;
+    }
+  }
