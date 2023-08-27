@@ -28,22 +28,20 @@ body {
 /* Note: Firefox doesn't support transparent scrollbar tracks */
 /* It only supports customizing the thumb color */
 body {
-    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent; 
 }
 .image{
-    max-height: 450px;
+    max-height: 450px; 
 }
 .key_features{ 
     overflow-y: scroll;
 }
 .img_product{
     height: 400px; 
-    width: 90%;
+    width: 90%; 
+    box-shadow: 0 0 10px 0;
+
 }
 .choose_img{
     height: 400px; 
-}
-a{
-    text-decoration: none; 
-    color: black;
 }
