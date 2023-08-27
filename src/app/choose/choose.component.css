@@ -1,5 +1,6 @@
 .choose_img{
-    height: 120px;
+    height: 80px;
+    width: 80px;
 }
 @media screen and (max-width: 480px) {
     .img_division{
