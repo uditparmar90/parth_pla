@@ -1,10 +1,24 @@
-<div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-header bg-primary text-white">
-            <h4 class="mb-0">Get a Quote</h4>
-          </div>
+<!-- Button trigger modal -->
+<div style="background-color: aliceblue; box-shadow: 0 0 10px 0; height: 150px;display: flex; margin-top:40px;
+justify-content: center;
+align-items: center;">
+  <div style="text-align: center; margin: auto;">
+    <P>Fill out the below form and our experts will touch with you within 24 hours.</P>
+    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Get a Quote
+    </button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Product Inquiry</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body m-2">
+        <div class="row justify-content-center">
           <div class="card-body">
             <form>
               <div class="form-group">
@@ -18,7 +32,7 @@
               <div class="form-group">
                 <label for="phone">Phone Number</label>
                 <input type="tel" class="form-control" id="phone" name="phone" required>
-              </div> 
+              </div>
               <div class="form-group">
                 <label for="phone">Product Name</label>
                 <input class="form-control" id="product_name" name="product_name" required>
@@ -27,10 +41,14 @@
                 <label for="message">Message</label>
                 <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-block">Submit</button>
             </form>
           </div>
         </div>
       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
     </div>
   </div>
+</div>

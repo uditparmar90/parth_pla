@@ -33,12 +33,15 @@ body {
 .image{
     max-height: 450px;
 }
-.key_features{
-    height: 450px; 
+.key_features{ 
     overflow-y: scroll;
 }
-img{
-    height: 400px;
+.img_product{
+    height: 400px; 
+    width: 90%;
+}
+.choose_img{
+    height: 400px; 
 }
 a{
     text-decoration: none; 
