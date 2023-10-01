@@ -55,7 +55,6 @@ body {
     margin: auto;
 }
 .col-product>.product_name{
-    box-shadow: 0 0 10px 0; 
     display: flex;
     justify-content: center; 
     margin: auto; 
