@@ -31,13 +31,4 @@
     height: 20px; 
     margin-right: 5px;
 }
-@media screen and (max-width: 480px) {
-    .col-product, img{
-        height: 250px !important; 
-        margin-top: 10px;
-    } 
-    .col-product:hover{
-        box-shadow: 0 0 0 0;
-    }
-  } 
   
